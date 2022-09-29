@@ -1,0 +1,55 @@
+* {
+   box-sizing: border-box;
+}
+
+body{
+   background-color: darkolivegreen;
+   margin: 0;
+}
+.container{
+   width: 600px; /* el ancho de los posts*/
+   margin: 0 auto; /* margen 0 arriba y abajo y auto a los lados para que se centre */
+}
+
+.title{
+   background-color: white;
+   text-align: center;
+}
+
+h1{
+   margin: 0 auto;
+   padding: 15px;
+}
+
+.post{
+   /* border: 1px solid red; */
+   background-color: white;
+   margin-top: 40px;
+   box-shadow: 1px 3px 7px rgba(50, 50, 50, 0.1);
+   
+}
+
+.post-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.post h2,
+.post span{
+   padding: 10px 10px;
+   margin: 0;
+}
+
+span{
+   color: gray;
+}
+
+img{
+   width: 100%;
+}
+
+.post-footer{
+   display: flex;
+   margin-left: 20px;
+}
